@@ -1,0 +1,19 @@
+{
+	"QubitMatrixMapper": {
+		"Information":      "This is the input file for a qubit mapper which can convert a symmetric square matrix into a qubit matrix.",
+                "matrix_file":      "The path to the file containing the matrix.",
+		"half_triangle":    "true if only half triangle provided (because it's a symmetric Hamiltonian).",
+                "int_readall":      "= 0 for reading integrals when needed. = 1 for storing all integrals in memory.",
+                "hamil_length":     "Is the size of the Hamiltonian in the matrix file, i.e. for a 2x2 matrix, hamil_length = 2.",
+		"classic_eigen":    "true = determine eigen values using classical computing.",
+		"print_ham":        "true = print the qubit Hamiltonian terms as an OpenFermion QubitOperator.",
+		"print_ham_tofile": "Print the qubit Hamiltonian to this file."
+	},
+	"matrix_file": "HCl_matrix_file", 
+	"half_triangle": true,
+	"int_readall": 1,
+	"hamil_length": 27,
+	"classic_eigen": true,
+	"print_ham": true,
+	"print_ham_tofile": "HCl_qham"
+}
