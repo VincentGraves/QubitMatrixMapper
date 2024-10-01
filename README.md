@@ -1,6 +1,6 @@
 # Qubit Matrix Mapper
 
-This is a python script for generating a qubit Hamiltonian using a first-quantised version of the Qubit Efficient Encoding scheme proposed by Shee et al. (DOI: 10.1103/PhysRevResearch.4.023154).
+This is a python script for generating a qubit Hamiltonian using a first-quantised version of either the Qubit Efficient Encoding scheme proposed by Shee et al. (DOI: 10.1103/PhysRevResearch.4.023154) or using a excitation function approach.
 
 ## Dependencies
 
